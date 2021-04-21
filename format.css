@@ -3,6 +3,46 @@
     margin-right: auto;
 }
 
+.centertable td{
+    padding:0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image:url(imgs/header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15%;
+}
+
+.footer {
+    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ffff99;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15%;
+}
+
+.infogray{
+    background-color: #e6e6e6;
+}
+
+.infoblue{
+    background-color: #b3d1ff;
+}
+
 .centerimg {
     display: block;
     margin-left: auto;

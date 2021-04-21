@@ -4,37 +4,63 @@
 
 <head>
     <link rel="stylesheet" href="format.css">
-    <h3 class="centertext"> Towson University x MITRE Corp. </h2>
+    <div class="header">
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
 </head>
 
 <body>
+    <br>
+    <div class="infogray">
+        <h1 class="centertext"> Genomic Database Submisson </h1>
+        <p class="centertext"> *info about data submission* </p>
+        <br>
 
-    <h1 class="centertext"> Genomic Database Submisson </h1>
-    <p class="centertext"> *info about data submission* </p>
+        <br>
+        <h4> Name </h4>
+        <label for="fname">First:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last:</label>
+        <input type="text" id="lname" name="lname"><br><br>
 
-    <h4> Name </h4>
-    <label for="fname">First:</label>
-    <input type="text" id="fname" name="fname"><br><br>
-    <label for="lname">Last:</label>
-    <input type="text" id="lname" name="lname"><br><br>
+        <br>
 
-    <button type="button">Submit</button>
+        <h4> Data </h4>
+        <label for="data">Data:</label>
+        <input type="text" id="data" name="data"><br><br>
+
+        <br>
+
+        <button type="button">Submit</button>
+        <!-- PHP here to validate form on button click -->
+    </div>
+    <br>
 
 </body>
 
 <footer>
-    <table class="center">
-        <tr>
-            <td> <a href=" AboutTheTeam.html">About the Team</a> </td>
-            <td> <a href="https://www.towson.edu/">Towson University</a> </td>
-            <td> <a href="https://www.mitre.org/">MITRE</a> </td>
-        </tr>
-        <tr>
-            <td> <a href="AboutTheTeam.html"> <img src="team_photo.png" width=75 height=75> </a> </td>
-            <td> <a href="AboutTheTeam.html"> <img src="towson_logo.png" width=75 height=75> </a> </td>
-            <td> <a href="AboutTheTeam.html"> <img src="mitre_logo.png" width=75 height=75> </a> </td>
-        </tr>
-    </table>
+    <br>
+    <div class="footer">
+        <table class="centertable">
+            <tr>
+                <td class="spacing"> <a href="GenomeProj_Frontend.html"> <img src="imgs/database_img.jpeg" width=75
+                            height=75> </a></td>
+                <td class="spacing"> <a href="AboutTheTeam.html"> <img src="imgs/team_photo.jpeg" width=75 height=75>
+                    </a> </td>
+                <td class="spacing"> <a href="https://www.towson.edu/"> <img src="imgs/towson_logo.png" width=75
+                            height=75> </a> </td>
+                <td class="spacing"> <a href="https://www.mitre.org/"> <img src="imgs/mitre_logo.jpeg" width=75
+                            height=75> </a> </td>
+            </tr>
+            <tr>
+                <td class="spacing"> <a href="GenomeProj_Frontend.html">Submit Data</a> </td>
+                <td class="spacing"> <a href=" AboutTheTeam.html">About the Team</a> </td>
+                <td class="spacing"> <a href="https://www.towson.edu/">Towson University</a> </td>
+                <td class="spacing"> <a href="https://www.mitre.org/">MITRE</a> </td>
+            </tr>
+        </table>
+    </div>
+    <br>
 </footer>
 
 </html>
